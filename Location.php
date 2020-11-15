@@ -1,8 +1,15 @@
 <?php
 
-/*
-@author: Mirarus
-@date: 15.11.2020 - 20:20 (UTC+3)
+/**
+ * PHP Mini Location Library
+ *
+ * PHP versions 5 and 7
+ *
+ *
+ * @author     Ali Güçlü (Mirarus) <aliguclutr@gmail.com>
+ * @datetime	15.11.2020 - 20:20 (UTC+3)
+ * @version    Release: 1.0
+ * @license   http://www.apache.org/licenses/LICENSE-2.0  Apache License 2.0
 */
 
 class Location
