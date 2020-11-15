@@ -1,14 +1,30 @@
 <?php
 
+/*
+@author: Mirarus
+@date: 15.11.2020 - 20:20 (UTC+3)
+*/
+
 class Location
 {
 
-	static public function get_country($code)
+	static public function get_country_code($code)
 	{
 		$countries = self::countries();
 
 		foreach ($countries as $data) {
 			if ($data['code'] == $code) {
+				return $data;
+			}
+		}
+	}
+
+	static public function get_country($id)
+	{
+		$countries = self::countries();
+
+		foreach ($countries as $data) {
+			if ($data['id'] == $id) {
 				return $data;
 			}
 		}
